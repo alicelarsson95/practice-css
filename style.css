@@ -1,0 +1,89 @@
+body {
+background-color:  rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: 100vh;
+}
+
+article {
+width: 600px;
+height: 50px;
+display: flex;
+align-items: center;
+background-color: rgb(255, 255, 255);
+margin: 15px;
+color: rgb(255, 255, 255);
+font-size: 0.6rem;
+}
+
+article section {
+padding: 0.2rem;
+font-family:'Times New Roman', Times, serif
+}
+
+.box-1 {
+background-color: #640000;
+flex-grow: 1;
+height: 100%;
+}
+
+.box-2 {
+background-color: #641400;
+flex-grow: 1;
+height: 100%;
+}
+
+.box-3 {
+background-color: #642800;
+flex-grow: 1;
+height: 100%;
+}
+
+.box-4 {
+background-color: #643C00;
+flex-grow: 2;
+height: 100%;
+}
+
+.box-5 {
+background-color: #646400;
+flex-grow: 3;
+height: 100%;
+}
+
+.box-6 {
+background-color: #646400;
+flex-grow: 5;
+height: 100%;
+}
+
+.box-7 {
+background-color: #647800;
+flex-grow: 8;
+height: 100%;
+}
+
+.box-8 {
+background-color: #648D00;
+flex-grow: 13;
+height: 100%;
+}
+
+.box-9 {
+background-color: #64A000;
+flex-grow: 21;
+height: 100%;
+}
+
+.box-10 {
+background-color: #64B401;
+flex-grow: 34;
+height: 100%;
+}
+
+.reverse {
+flex-direction: row-reverse;
+}
